@@ -2,7 +2,7 @@
 
 ## Contenidos del curso
 
-### **Módulo I** : Introducción y conceptos básicos
+### **Módulo I** : Introducción y conceptos básicos 
 
 - Ciclo de vida de los proyectos de desarrollo de software
 - Requerimientos de usuario

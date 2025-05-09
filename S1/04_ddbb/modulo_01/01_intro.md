@@ -2,6 +2,9 @@
 **Licenciatura en Tecnologías de la Información (Plan 2024)**
 **Tema central:** Fundamentos de Bases de Datos - Conceptos y estructura básica
 
+[⬅ Volver](../README.md)  
+
+
 ---
 
 ## 🔹 Introducción
@@ -48,14 +51,67 @@ Una base de datos debe:
 - **Reducción de redundancia:** minimizar duplicaciones innecesarias.
 - **Atomicidad:** una operación debe completarse por completo o no realizarse en absoluto.
 
+
 ---
 
-## 🔹 Propiedades ACID de las transacciones en bases de datos
+## 🔹 Lenguajes de bases de datos (SQL)
+
+SQL es el lenguaje estándar para interactuar con las bases de datos. Se divide en varios subconjuntos:
+
+### DDL - Data Definition Language
+Permite definir la estrucutra de la base de datos:
+- `CREATE`  crea tablas, vistas, etc.
+- `ALTER`: modifica estructuras existentes.
+- `DROP`: elimina objetos.
+- `TRUNCATE`: elimina filas de una tabla sin registro de cambios.
+
+
+### DML - Data Manipulation Language
+Permite manipular los datos:
+
+- `SELECT`: consultar datos.
+- `INSERT`: agregar nuevos registros.
+- `UPDATE`: modificar registros existentes.
+- `DELETE`: eliminar registros.
+
+
+### DCL - Data Control Language
+Controla permisos de acceso:
+
+- `GRANT`: otorga permisos.
+- `REVOKE`: revoca permisos previamente concedidos.
+
+
+### TCL - Transaction Control Language
+Gestiona transacciones:
+
+- `COMMIT`: guarda los cambios de forma permanente.
+- `ROLLBACK`: revierte cambios no deseados.
+- `SAVEPOINT`: establece puntos intermediarios para recuperación.
+
+> ❗ Una transacción es una unidad lógica de trabajo que consiste en una o más operaciones sobre una base de datos, que deben ejecutarse completamente o no ejecutarse en absoluto, garantizando integridad, coherencia y fiabilidad de los datos. :p
+
+---
+
+## 🔹 Sistema de Gestión de Bases de Datos (SGBD)
+El SGBD es un software que permite definir, crear, mantener y controlar el acceso a una base de datos. Proporciona una interfaz para realizar operaciones de consulta, inserción, modificación y eliminación de datos.
+
+### Funciones de un SGBD
+
+- **Interacción con el gestor de archivos:** permite el acceso físico a los datos almacenados.
+- **Control de concurrencia:** asegura la consistencia cuando varios usuarios acceden simultáneamente.
+- **Implementación de la integridad:** verifica el cumplimiento de reglas definidas.
+- **Catálogo del sistema:** contiene descripciones de tablas, columnas, restricciones, usuarios y estadísticas.
+- **Seguridad:** restringe el acceso a usuarios no autorizados.
+- **Recuperación:** permite restaurar el sistema ante fallos técnicos o errores humanos.
+
+---
+
+## 🔹 Propiedades ACID de las transacciones en bases de datos - EXTRA
 Las transacciones deben cumplir cuatro propiedades fundamentales conocidas como **ACID**: 
 Atomicidad, Consistencia, Aislamiento y Durabilidad. Estas propiedades aseguran que los datos
 permanezcan correctos y estables, incluso frente a errores o ejecuciones simultáneas.
 
-> ❗ Una transacción es una unidad lógica de trabajo que consiste en una o más operaciones sobre una base de datos, que deben ejecutarse completamente o no ejecutarse en absoluto, garantizando integridad, coherencia y fiabilidad de los datos. :p
 
 ## 1. Atomicidad (*Atomacity*)
 Una transacción debe ejecutarse **completa o no ejecutarse en absoluto**. No se permiten
@@ -97,4 +153,6 @@ Ejemplo:  Si se realiza un pago y el sistema se apaga luego, el pago debe quedar
 
 
 > 🔹 Las propiedades **ACID** aseguran que las bases de datos sean **ROBUSTAS, COHERENTES y SEGURAS**, especialmente en entornos críticos como los bancos, sistemas médicos o aplicaciones empresariales.
+
+
 

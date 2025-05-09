@@ -1,13 +1,11 @@
-# Semestre 01
+# 📘 Semestre 1 – Licenciatura en Tecnologías de la Información (Plan 2024)
 
-Este semestre incluye las siguientes materias:
+Este semestre incluye las siguientes asignaturas. Cada enlace dirige al resumen general de la materia y sus respectivos módulos.
 
-## Materias 
-- [Introducción a las perspectivas de TI](introduccion_ti.README.md)
-- [Análisis de Requerimentos](analisis_requerimentos.README.md)
-- [Fundamentos e introducción a la programación](introduccion_programacion.README.md)
-- [Base de Datos: Conceptos y diseño](base_datos.README.md)
-- [Metodologías del Testing Funcional](testing_funcional.README.md)
+## 📚 Materias
 
-
-
+- [01 - Introducción a las Perspectivas de TI](01_ipti.README.md)
+- [02 - Análisis de Requerimientos](02_ar.README.md)
+- [03 - Fundamentos e Introducción a la Programación](03_ifr.md)
+- [04 - Base de Datos: Conceptos y Diseño](04_ddbb.README.md)
+- [05 - Metodologías del Testing Funcional](05_itf.README.md)
