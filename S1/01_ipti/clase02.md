@@ -1,14 +1,12 @@
-# 📖 Clase 02 - Entrevista Mario Tucci
-
+# Clase 02 - Entrevista Mario Tucci
 **Fecha:** [11/03/2025]  
-**Tema:** 
+**Tema:** ARIONKODER
 
+[⬅ Volver](README.md) 
+
+---
 - Esta entrevista fue realizada en marzo de 2024 con motivo del nuevo plan de estudios de la carrera LTI y el comienzo de la generación.  
 
-
-ARIONKODER
-  
----
 
 ## Notas
 

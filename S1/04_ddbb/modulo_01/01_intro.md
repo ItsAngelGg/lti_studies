@@ -1,5 +1,7 @@
 # Módulo I - Introducción a las Bases de Datos
+
 **Licenciatura en Tecnologías de la Información (Plan 2024)**
+
 **Tema central:** Fundamentos de Bases de Datos - Conceptos y estructura básica
 
 [⬅ Volver](../README.md)  

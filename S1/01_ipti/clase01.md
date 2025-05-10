@@ -1,11 +1,12 @@
-# 📖 Clase 01 - Entrevista Carlos Acle
-
+# Clase 01 - Entrevista Carlos Acle
 **Fecha:** [10/03/2025]  
 **Tema:** Perspectivas de TI en Uruguay e importancia de las Softskills
 
-- Esta entrevista fue realizada en marzo de 2024 con motivo del nuevo plan de estudios de la carrera LTI y el comienzo de la generación.  
+[⬅ Volver](README.md) 
 
 ---
+
+- Esta entrevista fue realizada en marzo de 2024 con motivo del nuevo plan de estudios de la carrera LTI y el comienzo de la generación.  
 
 ## Notas  
 

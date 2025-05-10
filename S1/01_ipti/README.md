@@ -1,5 +1,9 @@
 ## Introducción a las Perspectivas de TI
 
+[⬅ Volver](../README.md) 
+
+---
+
 En esta materia se abordan conceptos básicos sobre el
 impacto y evolución de las tecnologías de la información.
 

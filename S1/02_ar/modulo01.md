@@ -1,6 +1,9 @@
 #  Módulo I – Introducción y conceptos básicos
-**Licenciatura en Tecnologías de la Información (Plan 2024)**  
-**Tema central:** Ingeniería de Requerimientos – Etapa de Especificación
+**Tema central:** Etapa de Especificación
+
+[⬅ Volver](../02_ar/README.md) 
+
+---
 
 ### 🔹 ¿Qué es la ingeniería de requerimientos?
 - Proceso de descubrir, analizar, documentar y verificar los requerimientos de un producto de software.
@@ -14,20 +17,20 @@
 
 ## 🔹 Software Development Life Cycle:
 
-### 01 | Análisis
+### 01. Análisis
 - En esta etapa se identifican y documentan los requerimientos de un sistema, trabajando con partes interesadas para enteder sus necesidades.
 - Se define el alcance.
 - Proporciona una base para el diseño.
 
-### 02 | Diseño
+### 02.  Diseño
 - Se desarrolla un diseño detallado del sistema, que abarca arquitectura, interfaces, base de datos y componentes.
 - Resulta fundamental para guiar a los devs durante la fase de implementación.
 
-### 03 | Desarrollo
+### 03.  Desarrollo
 - Se implementa el diseño, escribiendo código y construyendo el sistema.
 - Se integra el trabajo de diferentes partes del equipo y se construyen las funcionalidades clave.
 
-### 04 | Pruebas
+### 04. Pruebas
 - Se somete el software a pruebas rigurosas para asegurar que funcione como se espera y cumpla con los requerimientos.
 - Puede incluir:
   - Pruebas unitarias
@@ -35,19 +38,17 @@
   - Pruebas de sistema
   - Pruebas de aceptación de usuario
 
-### 05 | Despliegue
+### 05. Despliegue
 - El software se despliega para su uso.
 - Esta etapa puede implicar la instalación, configuración y capacitación del usuario, así como el lanzamiento del sistema a producción.
 
-### 06 | Mantenimiento
+### 06. Mantenimiento
 - Se corrigen errores, se aplican parches, se actualiza el sistema según sea necesario.
 
 --- 
 ### 🔹 Requerimientos del Software
----
-- Descripción de las funciones proporcionadas por el sistema y sus restricciones operativas.
+Descripción de las funciones proporcionadas por el sistema y sus restricciones operativas.
 
----
 1. Requerimientos de usuario
     - Requerimientos abstractos de alto nivel.
     - Declarados en lenguaje natural, complementados a veces con diagramas, de los servicios que se esperan que el sistema proporcione y de las restricciones bajo las cuales debe funcionar.
@@ -64,29 +65,22 @@
       - Requerimientos de dominio, reflejan el conocimiento y lasreglas específicas de la industria o dominio en el que se implementará el sistema. 
       Son importanes porque afectan las funcionalidades, restricciones y consideraciones técnicas que deben tenerse en cuenta durante el desarrollo del software.
 
-
-
 --- 
 ### 🔹 Proceso de ingeniería de requerimientos
----
 
-### 01 | Recopilación 
+### 01. Recopilación 
 - El objetivo es entender el trabajo que realizan los interesados y cómo podrían utilizar un nuevo sistema para facilitarlo.
 - En esta etapa, los analistas trabajan con los interesados para conocer el dominio de la aplicación, las actividades laborales, servicios y características del sistema que desean.
 
----
 
-### 02| Especificación
+### 02. Especificación
 - Proceso de plasmar los requisitos de usuario y de sistema en un documento.
 - Los requsitos deben ser claros, fáciles de entender, completos y consistentes.
 - En la práctica, esto es casi imposiblede lograr. Los interesados interpretan los requisitos de diferente manera, y a menudo hay conflictos e inconsistencias.
 
----
-
-### 03 | Validación 
+### 03. Validación 
 - Proceso de verificar que los requisitos definan el sistema que el cliente realmente quiere.
 - Durante este proceso, se debe revisar los requerimientos para asegurar que cumplan determinadas características como validez, consistencia, etc.
-
 
 ---
 

@@ -1,13 +1,13 @@
 #  Módulo 4 – Validación
-**Licenciatura en Tecnologías de la Información (Plan 2024)**  
-**Tema central:** Ingeniería de Requerimientos – Etapa de Validación
+**Tema central:** Etapa de Validación
+
+[⬅ Volver](../02_ar/README.md) 
 
 --- 
 ##  Validación en Ingeniería de Requerimientos
 La ingeniería de requerimientos es un proceso iterativo que incluye **recopilación**, **especificación** y **validación**.  
 La validación asegura que los requerimientos recopilados sean correctos y cumplan con lo que necesita el cliente, antes de avanzar en el desarrollo.
 
----
 
 ##  Ingeniería de Software – Procesos clave
 - Gestión de proyectos  
@@ -18,13 +18,11 @@ La validación asegura que los requerimientos recopilados sean correctos y cumpl
 - Gestión de configuración  
 - Gestión de servicios, infraestructura y seguridad  
 
----
 
 ##  SQA – Aseguramiento de la calidad del software
 Busca garantizar que tanto el producto como el proceso cumplan con los estándares de calidad.  
 Involucra actividades sistemáticas que aportan confianza en el cumplimiento de los requisitos.
 
----
 
 ##  V&V – Verificación y Validación
 
@@ -36,7 +34,6 @@ Parte fundamental de SQA:
 | Enfocada en productos intermedios                | Enfocada en el producto final               |
 | Realizada por el equipo de desarrollo            | Evaluación externa (usuario/cliente)        |
 
----
 
 ##  Ciclo continuo de V&V
 Estas actividades ayudan a:
@@ -44,7 +41,6 @@ Estas actividades ayudan a:
 - Asegurar claridad y precisión de los datos.
 - Garantizar alineación entre los requerimientos de las partes interesadas y la solución.
 
----
 
 ##  Estadísticas clave
 - **Altos costos** al corregir errores en etapas tardías.
@@ -56,7 +52,6 @@ Estas actividades ayudan a:
 - PMI (2017)  
 - Laporte y April (2018)  
 
----
 
 ##  Normas
 
@@ -65,4 +60,3 @@ Estas actividades ayudan a:
   Versión más actual, incluye procesos, plantillas y herramientas como UML, JIRA, historias de usuario.  
   Homologada para Uruguay.
 
----

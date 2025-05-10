@@ -1,8 +1,13 @@
 # Análisis de Requerimientos
+**Licenciatura en Tecnologías de la Información (Plan 2024)**
 
-## Contenidos del curso
+[⬅ Volver](../README.md) 
 
-### **Módulo I** : Introducción y conceptos básicos 
+---
+
+##  Módulos
+
+### [**Módulo I** : Introducción y conceptos básicos](modulo01.md)
 
 - Ciclo de vida de los proyectos de desarrollo de software
 - Requerimientos de usuario
@@ -13,15 +18,14 @@
   
 ---
 
-### **Módulo II** : Recopilación y validación
+### [**Módulo II** : Recopilación y validación](modulo02.md)
 
 - Técnicas y herramientas de recopilación de requsitos
 - Habilidades / competencias necesarias
 - Validación de características que deben cumplir los requisitos
 
----
 
-### **Módulo III** : Especificación y documentación
+### [**Módulo III** : Especificación y documentación](modulo03.md)
 
 - Modelos orientados al alcance
   - Diagrama de contexto
@@ -32,9 +36,8 @@
   - Casos de uso
   - Flujos de proceso
 
----
 
-## **Módulo IV** : Verificación y validación
+### [**Módulo IV** : Verificación y validación](modulo04.md)
 
 - Introducción a los conceptos de SQA y su importancia en la ingeniería de requerimientos
 - Acitividades involucradas en la V&V (verificación y validación)
@@ -52,4 +55,3 @@
 
 [Steve Jobs en la Universidad de Stanford](https://ev1.utec.edu.uy/moodle/mod/url/view.php?id=611540)
 
----

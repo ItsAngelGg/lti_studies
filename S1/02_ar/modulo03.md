@@ -1,6 +1,7 @@
 #  Módulo III – Especificación y Documentación  
-**Licenciatura en Tecnologías de la Información (Plan 2024)**  
-**Tema central:** Ingeniería de Requerimientos – Etapa de Especificación
+**Tema central:** Etapa de Especificación
+
+[⬅ Volver](../02_ar/README.md)
 
 ---
 
@@ -25,9 +26,8 @@
 ###  Texto libre en lenguaje natural
 - Muy común para requisitos de usuario.
 - Ejemplo:  
-  > El sistema debe permitir buscar libros por título, autor o ISBN.
+  ` El sistema debe permitir buscar libros por título, autor o ISBN.`
 
----
 
 ###  Lenguaje natural estructurado
 - Uso de plantillas estándar para definir requisitos.
@@ -79,5 +79,3 @@ Definidos por:
 - Ejemplos:
   - Diagramas de Casos de Uso (UML)
   - Diagramas de Secuencia (UML)
-
-
