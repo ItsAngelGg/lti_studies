@@ -1,0 +1,109 @@
+# Módulo II - Programción Orientada a Objetos
+
+**Tema central:** Relaciones, herencia y polimorfismo
+
+[⬅ Volver](../README.md) 
+
+---
+
+## Relaciones, herencia y polimorfismo: Jerarquía de Clases y Comportamientos
+
+### Relaciones entre clases
+La relaciones entre clases permiten modelar la interacción y vinculación dentre diferentes entidades del sistema. En UML, las asociaciones entre clases se represetan con líneas que conectan las clases implicadas, pudiendo incluir multiplicidades y nombres de roles.
+
+#### Asociación
+Es una relación estructural que indica que los objetos de una clase están conectados con objetos de otra. Puede ser;
+- Unidireccional, si una clase conoce a la otra.
+- Bidireccional, si ambas clases se conocen mutuamente.
+
+> Ejemplo, una clase `Persona` puede tener un atributo del tipo `Auto`, lo que implica que existe una relación de asociación.
+
+#### Cardinalidad
+La asociación puede representar relaciones de:
+- Uno a uno (1:1), una persona tiene un auto.
+- Uno a muchos (1:N), una persona puede tener varios autos. EN este caso, se representa mediante una colección (`List<Auto>`).
+- Muchos a muchos (N:N), requiere una clase intermedia para implementar la relación.
+
+#### Valores por defecto
+En relaciones con tipos complejos, como clases, el valor por defecto de un atributo no inicializado es `null`, lo que puede representar la ausencia de una relación.
+
+#### Referencias compartidas
+Cuando se asigna un mismo objeto a diferentes variables, todas apuntan a la misma instancia en memoria. Por tanto, cualquier modificación desde una de las referencias impactará en el objeto compartido.
+
+---
+
+### Herencia
+La herencia en Java permite construir nuevas clases a partir de clases existentes, heredando sus atributos y métodos. La clase original se denomina `superclase`, y la que hereda de ella, `subclase`.
+
+Se declara mediante la palabra reservada `extends`.
+
+La subclase hereda todo lo público y protegido de la superclase, pudiendo agregar o modificar su comportamineto.
+ej.
+```markdown
+public class Barco {...}
+
+public class BarcoGuerra extends Barco {
+    super(...); // se llama al constructor de Barco
+    //inicialización propia
+}
+```
+
+**super()** se usa en el constructor de la subclase para invocar explícitamente al constructor de la superclase y así inicializamos los atributos heredados.
+
+#### Jerarquía y tipo
+Toda subclase es también un objeto del tipo de su superclase, lo que permite tratar objetos derivados como si fueran de la clase base, pero con comportamientos especializados.
+
+#### instanceof
+Operador que permite verificar si un objeto es una instancia de una clase específica o de una subclase.
+
+```markdown
+if (obj instanceof BarcoGuerra) {
+    //Logica a ejecutar...
+}
+```
+
+#### Ventajas de la herencia
+- Reutilización de código.
+- Extensibilidad.
+- Mejora de la organizaicón modular.
+- Reducción de errores por duplicación.
+
+#### Desventajas
+- Complejidad creciente en jerarquías profundas.
+- Aumento de acoplamiento.
+- Riesgo de violar el principio de encapsulamiento si no se diseña correctamente.
+
+---
+
+### Polimorfismo
+Permite que un mismo mensaje (llamamda a método) pueda provocar diferentes comportamientos dependiendo del tipo del objeto que lo recibe. En Java se manifiesta en dos formas:
+
+**Polimorfismo de compilación (sobrecarga)**
+
+Permite definir múltiples métodos con el mismo nombre, diferenciados por la cantidad o tipo de parámetros. La elección del método se resuelve en tiempo de ejecución.
+```markdown
+public int sumar (int a, int b) {...}
+public double sumar (double a, double b) {...}
+```
+
+**Polimorfismo de ejecución (sobrescritura)**
+
+Una subclase redefine un método heredado para cambiar su comportamiento. Se utiliza la anotación `@Override` para indicar que se está sobreescribiendo un método de la superclase.
+```markdown
+class Animal {
+    void hacerSonido() {System.out.println("Sonido genérico");}
+}
+
+class Perro extends Animal {
+    @Override
+    void hacerSonido(){System.out.println("Ladrido");}
+}
+```
+
+Al ejecutar:
+```markdown
+Animal a = new Perro();
+a.hacerSonido(); // Llama a la versión de Perro
+```
+Aquí el método específico que se invoca **depende del tipo real** del objeto en tiempo de ejecución, no del tipo de la variable.
+
